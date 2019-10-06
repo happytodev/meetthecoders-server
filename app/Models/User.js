@@ -34,6 +34,20 @@ class User extends Model {
   tokens () {
     return this.hasMany('App/Models/Token')
   }
+
+  /**
+   * Define belongs to many relationships between users and
+   * languages
+   *
+   * @method languages
+   *
+   * @return {Object}
+   */
+  languages () {
+    return this
+      .belongsToMany('App/Models/Language')
+      .withPivot(['level'])
+  }
 }
 
 module.exports = User
