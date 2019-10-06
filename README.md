@@ -14,3 +14,7 @@ adonis migration:run
 ### SERVER / Chapter 03 - 20191004
 
 - Add migrations for users and languages tables
+
+### SERVER / Chapter 04 - 20191006
+
+- Add / update models for chapter 04
