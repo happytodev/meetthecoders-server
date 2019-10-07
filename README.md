@@ -18,3 +18,7 @@ adonis migration:run
 ### SERVER / Chapter 04 - 20191006
 
 - Add / update models for chapter 04
+
+### SERVER / Chapter 05 - 20191007
+
+- Update routes, migrations and controllers for chapter 05

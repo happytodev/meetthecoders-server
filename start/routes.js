@@ -23,3 +23,7 @@ Route.group(() => {
   Route.post('register', 'Auth/AuthenticationController.register')
   Route.get('me', 'Auth/AuthenticationController.me').middleware(['auth'])
 }).prefix('api')
+
+Route.group(() => {
+  Route.get('languages', 'LanguageController.get')
+}).prefix('api')
